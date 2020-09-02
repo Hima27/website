@@ -1,0 +1,174 @@
+html {
+    height: auto;
+    margin-left: 0px;
+    padding: 0px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat center center fixed;
+    background-size: 100%;
+    background-position: absolute;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+
+}
+
+@media screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 1100px) 
+{}
+
+.entire-page {
+    height: 100%;  
+    min-width: 1247px;
+    max-width: 1263px;
+    align-content: center;
+    margin: auto;
+    left: 1%;
+    right: 1%;
+}
+
+.title {
+    text-align: center;
+}
+
+.logo {
+    width:170px;
+    height: 150px;
+    background-color: transparent;
+}
+
+.line {
+    margin-top: 25px;
+    width: 80%; 
+    color: goldenrod;
+    border-bottom: black;
+    border-color: goldenrod;
+}
+
+.about-button {
+    margin: 40px;
+    background-color: transparent;
+    border-style: ridge;
+    border-width: 1px;
+    width: 150px;
+    height: 45px ;
+    border-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.hide{
+    display: none;
+}
+
+.projects-button {
+    margin: 40px;
+    background-color: transparent;
+    border-style: ridge;
+    border-width: 1px;
+    width: 150px;
+    height: 45px ;
+    border-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.experience-button{
+    margin: 40px;
+    background-color: transparent;
+    border-style: ridge;
+    border-width: 1px;
+    width: 150px;
+    height: 45px ;
+    border-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.about-content {
+    width: 450px;
+    overflow: auto;
+    align-content: center;
+    margin-left: 557px;
+    margin-top: -180px;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-clip: padding-box;
+    opacity: 80%;
+}
+
+ .profile-pic {
+    margin-left: 300px;
+    width: 180px;
+    height: 240px;
+    right: 100px;
+    margin-top: -20px;
+    border-color: goldenrod;
+}
+
+.hi-intro {
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: 100%;
+}
+
+.education-row {
+    display: inline-block;
+    display: flex;
+}
+
+.education, .skills, .hobbies {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education-content, .skills-content, .hobbies-content {
+    margin-left: 15px;
+    margin-top: 25px;
+    color: whitesmoke;
+}
+
+.name-bio {
+    margin-left: 303px;
+    width: 180px;
+    position: absolute;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 480px;
+    color: whitesmoke;
+    opacity: 95%;
+}
+
+.name {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.email {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -17px;
+    margin-left: 2px;
+    color: whitesmoke;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

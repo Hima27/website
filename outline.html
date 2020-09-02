@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <META HTTP-EQUIV="refresh" CONTENT="60">
+</head>
+
+<body>
+    <div class="entire-page">
+        <div class="title">
+
+            <div class="row">
+                <img src="logo.png" class="logo" alt="logo">
+                <hr class="line">
+            </div>
+            <span>
+                <button class="about-button" id="about-button" onclick="changeButtonColour()">About</button>
+                <button class="projects-button" id="projects-button">Projects</button>
+                <button class="experience-button">Experience</button>
+            </span>
+
+        </div>
+
+        <div id="about-page" >
+
+            <div class="row">
+                <img class="profile-pic" src="me.png" alt="Profile Pic">
+
+                <div class="name-bio">
+                    <p class="name">Hima Patel</p>
+                    <address class="email">
+                        <a class="email" href="mailto:hima@uoguelph.ca">hima@uoguelph.ca</a>
+                    </address>
+                </div>
+
+                <div class="about-content" id="about-content">
+                    <p class="hi-intro">Hi! I'm Hima, welcome to my digital portfolio!</p>
+
+                    <div class="row education-row">
+                        <p class="education">Education:</p>
+                        <p class="education-content">Software Engineering (co-op) at University of Guelph</p>    
+                    </div>
+
+                    <div class="row education-row">
+                        <p class="skills">Skills:</p>
+                        <p class="skills-content">Object-Oriented Programming, Java, C, JavaScript, Node.js, Angular, Data Structures,
+                        Algorithms, Agile Methodologies</p>
+                    </div>
+
+                    <div class="row education-row">
+                        <p class="hobbies">Hobbies/Interests:</p>
+                        <p class="hobbies-content">Playing my ukulele, hiking, travelling, outer-space, painting and programming!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="projects-page">
+            <div class="about-content" id="about-content">
+                <div class="row education-row">
+                    <p class="education">SVG Parser:</p>
+                    <p class="education-content">A user-friendly webapp made with JavaScript, HTML and CSS allows one to view, add, delete and edit attributes of any .svg image. Backend server and API calls are made using Node.js and implemented with C which edit the attributes in real time and update the image(s) in the view panel. A log of these changes are kept in a MySQL database.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="connect.js"></script>
+</body>
+</html>
