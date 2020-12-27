@@ -6,10 +6,11 @@ html {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-    background-image: url("background.jpg");
+    /* background-image: url("background.jpg"); */
     background-repeat: no-repeat center center fixed;
     background-size: 100%;
     background-position: absolute;
+    background-color: #1c2845;
     margin: auto;
     left: 1%;
     right: 1%;
@@ -17,9 +18,9 @@ html {
 }
 
 @media screen 
-  and (min-device-width: 600px) 
-  and (max-device-width: 1100px) 
-{}
+  and (min-device-width: sm) 
+  and (max-device-width: md) 
+{
 
 .entire-page {
     height: 100%;  
@@ -30,7 +31,7 @@ html {
     left: 1%;
     right: 1%;
 }
-
+}
 .title {
     text-align: center;
 }
