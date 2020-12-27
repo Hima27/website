@@ -7,13 +7,14 @@ html {
     margin-bottom: 0px;
     margin-right: 0px;
     /* background-image: url("background.jpg"); */
-    background-repeat: no-repeat center center fixed;
+    /* background-repeat: no-repeat center center fixed;
     background-size: 100%;
     background-position: absolute;
     background-color: #1c2845;
     margin: auto;
     left: 1%;
-    right: 1%;
+    right: 1%; */
+    
 
 }
 
@@ -22,18 +23,21 @@ html {
   and (max-device-width: md) 
 {
 
-.entire-page {
-    height: 100%;  
-    min-width: 1247px;
-    max-width: 1263px;
-    align-content: center;
-    margin: auto;
-    left: 1%;
-    right: 1%;
-}
+    .entire-page {
+        height: 100%;  
+        min-width: 1247px;
+        max-width: 1263px;
+        align-content: center;
+        margin: auto;
+        left: 1%;
+        right: 1%;
+        
+    }
 }
 .title {
     text-align: center;
+    width: 66vw;
+    float: right;
 }
 
 .logo {
@@ -94,7 +98,7 @@ html {
 }
 
 .about-content {
-    width: 450px;
+    width: 500px;
     overflow: auto;
     align-content: center;
     margin-left: 557px;
@@ -103,14 +107,29 @@ html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-clip: padding-box;
     opacity: 80%;
+    margin: auto;
+    background-size: 100%;
+    background-position: absolute;
+    
 }
 
- .profile-pic {
-    margin-left: 300px;
+.contact-info {
+    background-color: #1c2845;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    width: 25vw; 
+    position: fixed; /* or absolute? I don't know what will be better for you */
+    top: 0;
+    margin-left: 20p
+}
+
+.profile-pic {
+    margin-left: 120px;
     width: 180px;
     height: 240px;
     right: 100px;
-    margin-top: -20px;
+    margin-top: 50px;
     border-color: goldenrod;
 }
 
@@ -164,6 +183,8 @@ html {
     font-style: normal;
     text-decoration: none;
 }
+
+
 
 
 
