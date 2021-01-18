@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+
+    <head>
+        <title>Hima Patel</title>
+        <link rel="icon" href=logo.png>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- <META HTTP-EQUIV="refresh" CONTENT="60"> -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.fog.min.js"></script>
+    </head>
+
+    <body>
+        <div id="vantafog">
+            <script>
+                VANTA.FOG({
+                el: "#vantafog",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                // minHeight: 200.00,
+                // minWidth: 200.00,
+                highlightColor: 0xf7cc42,
+                midtoneColor: 0xff5d46,
+                lowlightColor: 0x4a00ff,
+                baseColor: 0xf2bfbf,
+                blurFactor: 0.51,
+                speed: 2.35,
+                zoom: 2.00
+                })
+            </script>
+
+        </div>
+
+        <div class="personal-info" id="personal-info-col">
+            
+            <img class="profile-pic" src="me.png" alt="Profile Pic">
+
+            <div class="name-bio"></div>
+                <h1 class="name">Hima Patel</h1>
+                <h5 class="short-bio">3<sup>rd</sup> year Software Engineering Student</h5>
+                <!-- <address class="email">
+                    <a class="email" href="mailto:hima@uoguelph.ca">hima@uoguelph.ca</a>
+                </address> -->
+
+                <br>
+
+                <div class="navigation-options" id="navigation-options">
+                    <button class="about-btn" id="about-btn">
+                        <h2 class="about-text" id="about-text">About ></h2>
+                    </button>
+                    <button class="projects-btn" id="projects-btn">
+                        <h2 class="projects-text" id="projects-text">Projects ></h2>
+                    </button>
+                    <button class="experience-btn" id="experience-btn">
+                        <h2 class="experience-text" id="experience-text">Experience ></h2>
+                    </button>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="connect-options" id="connect-options">
+                    <span class="email">
+                        <img class="email-icon" src="email.png" alt="">
+                        <h3  class="email-name">
+                            <a class="link" href="mailto:hima@uoguelph.ca">Email</a>
+                        </h3>
+                    </span>
+                    <span class="github">
+                        <img class="github-icon" src="github.png" alt="">
+                        <h3 class="github-name">
+                            <a href="https://github.com/Hima27" class="link" target="_blank">
+                                GitHub
+                            </a>
+                        </h3>
+                    </span>
+                    <span class="linkedin">
+                        <img class="linkedin-icon" src="linkedin-2.png" alt="">
+                        <h3 class="linkedin-name">
+                            <a href="https://www.linkedin.com/in/hima-patel-018b86183/" class="link" target="_blank">
+                                LinkedIn
+                            </a>
+                        </h3>
+                    </span>
+                    <span class="resume">
+                        <img class="resume-icon" src="resume.png" alt="">
+                        <h3 class="resume-name">
+                            <a href="resume.pdf" class="link" target="_blank">
+                                Resume
+                            </a>
+                        </h3>
+                    </span>
+                    <span class="devpost">
+                        <img class="devpost-icon" src="devpost.png" alt="">
+                        <h3 class="devpost-name">
+                            <a href="https://devpost.com/Hima27?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" class="link" target="_blank">
+                                Devpost
+                            </a>
+                        </h3>
+                    </span>
+                </div>
+                <footer class="copyright"> <small>&copy; Copyright 2020</small> </footer>
+            </div>
+        </div>
+
+        <div class="content-side">
+            <div id="about">
+                <div class="about-page" id="about-page">
+                    <h1>About Me!</h1>
+                    <hr class="heading-underline"></hr>
+                    <p class="hi-intro">Hey there! &#128075 I'm Hima and this is my digital portfolio! This website is designed to showcase my profile, personal and educational projects along with my co-op experience!</p>
+    
+                    <div class="education-skills">
+                        <p class="education">I'm currently a third year Software Engineering (Co-op) student at the University of Guelph. I'm also completing a Certificate in Leadership along with my major.</p>    
+                        <p class="skills-content">My technical skills and experience include object-oriented programming, Java, C, Python, JavaScript, Node.js, Angular, Spring Boot, data structures, algorithms, agile, Git, Jira along with unit and performance testing.</p>
+                    </div>
+                   
+                    <div class="hobbies-interests">
+                        <p class="hobbies-content">Along with doing school work, I enjoy playing my ukulele, hiking, swimming, travelling, learning about outer-space, painting, photography and of course programming! I'm really interested in AI, cloud systems, full-stack development and user interaction.</p>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img class="full-stack-img" src="full-stack.jpg" alt="full-stack development process">
+                    </div>
+    
+                    
+                    <a href="https://www.aalpha.net/wp-content/uploads/2019/05/Full-Stack-Developer-India.jpg" class="full-stack-caption" target="_blank">Full-stack Development Overview</a>
+                    <br>
+    
+                </div>
+            </div>
+            
+            <div id="projects">
+                <div class="projects-page" id="projects-page">
+                    <h1>Projects I've Done</h1>
+                    <hr class="heading-underline"></hr>
+                    <div class="project-one">
+                        <h3>SVG Parser (School)</h3>
+                        <p>A user-friendly webapp made with JavaScript, jQuery, HTML and CSS allows one to view, add, delete and edit attributes of any .svg image. Backend server and API calls are made using Node.js and implemented with C which edit the attributes in real time and update the image(s) in the view panel. A log of these changes are kept in a MySQL database.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="project-two">
+                        <h3>Dungeons and Dragons Simulator (School)</h3>
+                        <p>A similuation of the famous board game <i>Dungeons &AMP; Dragons</i> created using Java and object-oriented programming principles (abstraction, encapsulation, polymorphism and inheritance). Java classes are designed based on game attributes such as Monsters, Treasures, Doors, etc. The graphical user interface is made using JavaFx for a smoother user experience.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="project-three">
+                        <h3>This Website (Personal)</h3>
+                        <p>This website was recently created to showcase past, present and future technical accomplishmants and act as a digital portfolio. Created using HTML, CSS, JavaScript and jQuery, this website is made resposive for portability.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="project-four">
+                        <h3>Salmon Run! (Hackathon)</h3>
+                        <p>This projects was made within a group of four at the Shehacks 2021 hackathon - targeting the environmental conservation of salmon endangerment. Using the SFML library in C++, this RPG was developed to simulate a salmon swimming upriver, avoiding natural and man-made obstacles using arrows keys (standard input) and collision components to track a maximum of 3 collision strikes before it's game over.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="project-five">
+                        <h3>Automated Battlesnake (Co-op Hackathon)</h3>
+                        <p>Using the Battlesnake platform and along with two other team members, an automated snake (like that Nokia phone game) was built using Javascript which then competed against other snakes built by other teams within the same grid. The automated snake was programmed to use three algorithms in order to out-live the other snakes - hungry, defensive-hungry and tail-chasing which were all dependent on HTTP request and response headers of the snake's current head location.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="project-six">
+                        <h3>Arduino Ultrasonic Scanner (Hackathon)</h3>
+                        <p>Created within a group of two at the UtraHacks 2018 hackathon, this project was built using Python and Arduino Uno. Targeted for accessibility, this product understood hand gestures within proximity as volume and playback controls of a regular video-player application.</p>
+                    </div>
+
+                    <br>
+                </div>
+            </div>
+
+            <div id="experience">
+                <div class="experience-page" id="experience-page">
+                    <h1>Co-op Work Experience</h1>
+                    <hr class="heading-underline"></hr>
+                    <h2 class="first-second-label" id="first-second-label">RBC - OMNI: Workterm Report S20 and F20</h2>
+                    <p class="first-second-caption">First and second co-op terms (8 months)</p>
+
+
+                    <div class="workterm-subheading">
+                        <h3>Introduction</h3>
+                        <p>It's hard to believe that it has been over eight months of the spread of Covid-19. Along with many other co-op students, I had to opportunity of working entirely remotely for my first and second co-op work terms in 2020. Follow along as I share my journey with you about my co-op experience as a software engineering student working at a large corporation.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="workterm-subheading">
+                        <h3>Employer Information</h3>
+                        <h4 class="workterm-sub-subheading">About RBC</h4>
+                        <p class="workterm-sub-subheading">For my first and second co-op work terms, I had the amazing opportunity of working at Royal Bank of Canada. RBC is ranked the number one largest bank in Canada and one of largest in the world. This financial institution provides numerous products and services to its clients, partners and sponsorships. Some of their products include day-to-day banking applications and accounts, credit card lines, investment banking solutions - RBC Ventures, mortgage solutions and corporate banking options.</p>
+                        <p class="workterm-sub-subheading">In addition, RBC has many partnerships to ensure that a diverse group of programs receive the funding they require, one of them being the RBC Training Ground for young and uprising Canadian Olympic athletes. Along with financial management, RBC is also known for their technological applications which are available to their clients along with having a large group of diverse employees.</p>
+                    
+                        <br>
+                        <img class="full-stack-img" src="RBC.jpg" alt="Royal Bank of Canada">
+                        <h5 class="full-stack-caption" target="_blank">Royal Bank of Canada</h5>
+                        <br>
+
+                        <h4 class="workterm-sub-subheading">About OMNI at RBC</h4>
+                        <p class="workterm-sub-subheading">As a co-op student at the bank, I worked within the OMNI group. OMNI is responsible for designing, developing, testing and deploying online banking applications for day-to-day banking, home investments, onboarding new clients, creating new accounts, and other online banking services which can all be accessed by any RBC client at a local branch or on their personal devices. In addition to implementing new widgets, all journeys and squads within OMNI follow <a href="https://www.synopsys.com/glossary/what-is-agile-sdlc.html#:~:text=Agile%20SDLC%20methodology%20is%20based,last%20two%20to%20four%20weeks" target="_blank">agile</a> ways of working to improve work efficiency and welcome new changes easily later in the software development process.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="workterm-subheading">
+                        <h3>Job Description/My Role at RBC-OMNI</h3>
+                        <p>With the global spread Covid-19, more and more essential businesses are finding ways to provide their services online and remotely. As a bank and large corporation, many RBC products and services which were originally offered in person - in local branches were shifted entirely online. As for the existing online tools and applications before the pandemic, many were updated to provide an easier user experience and a seamless onboarding procedure for welcoming new clients.</p>
+                        <p>As for my role at the bank, I was a software developer co-op on the Nebula squad within the Choose A Bank journey at RBC - OMNI from May 2020 to December 2020. The Choose A Bank journey handles the implementation and deployment of widgets for onboarding new clients and helping them create new primary and/or secondary accounts. My squad was specifically responsible for the series of document review screens which are presented to the client and/or branch advisor when they are in the process of creating a new bank account. These series of digital widgets are compiled together to build an entire 'Account Open' flow and are designed to work on desktops, tablets and mobile devices. With the expansion of the types of bank accounts offered to clients and banking promotions, these widgets were consistently updated along with introducing new ones. Ultimately, this impacts the front-end - updating the visual components along with the back-end - calling the appropriate server endpoints and storing relevant data. </p>
+                        
+                        <br>
+                        
+                        <img class="full-stack-img" src="wfh-setup.jpg" alt="My work from home wfh-setup">
+                        <h5 class="full-stack-caption" target="_blank">My work from home setup</h5>
+
+                        <br>
+                        
+                        <h4 class="workterm-sub-subheading">The First Work Term</h4>
+                        <p class="workterm-sub-subheading">For the first four months of my co-op experience, I worked with the team that handles front-end technologies related to the document review pages of the new client/account onboarding tool. The OMNI front-end infrastructure mainly uses <a href="https://angular.io/guide/architecture" target="_blank">Angular</a> (TypeScript), HTML and CSS to implement changes. Being new to Angular, it was a bit of a learning curve for me. Fortunately, RBC employees have access to a learning database called <a href="https://degreed.com/" target="_blank">Degreed</a> which has many resources on Angular and it allowed me to grasp the content a lot faster. Along with the continuous support from my mentor via pair programming sessions, helpful PR (pull request) comments and knowledge share sessions presented by the Front-end Chapter, it was easy to learn these new technologies.</p>
+                        <p class="workterm-sub-subheading">Getting a grasp of the enterprise tools used (Git, Jira, Jenkins, Nexus Repository Manager, Urban Code Deploy and Taplytics) was not difficult once I had worked on more stories. Over the course of these four months, I got to build a few new screens in the 'Account Open' flow regarding a client's 'Pin Disclosure' agreement, collecting their responses when opting into VIP banking programs along with <a href="https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/" target="_blank">regression testing</a> these pages for responsiveness. Working with the front-end was definitely rewarding as I got see my work reflected on the actual product which thousands of RBC clients continue to use today.</p>
+                        
+                        <br>
+
+                        <h4 class="workterm-sub-subheading">The Second Work Term</h4>
+                        <p class="workterm-sub-subheading">The OMNI infrastructure surrounds the idea of <a href="https://skillcrush.com/blog/front-end-back-end-full-stack/" target="_blank">full stack</a> development. Hence, I decided to learn about the back-end technologies used within the Choose A Bank journey for my second co-op work term at RBC. While I was still working with the back-end services of the same document review widget which I had worked with in the previous term, things were a lot different. For starters, the code implementation and unit testing were completed in Java using the <a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot</a> framework, and once again the Degreed learning database was extremely helpful. Bash scripts were used for post-implementation verification testing and Pivotal Cloud Foundry logs, Postman mock requests, Dynatrace 'pure paths' along with Splunk dashboards were created and used to filter through HTTP requests and responses when each endpoint was reached in both the demo and final production environments. This time, I received the help of another mentor on my squad who specializes in back-end services along with the OMNI Back-end Chapter to understand and confidently use these technologies in my daily work.</p>
+                        <p class="workterm-sub-subheading">During this term, some of the stories (tasks) which I got work on were updating message templates that appear in the banking portal once a client logs in, working with APIs to store appropriate data when endpoints were called and filtering through a large amount of logs using queries to better analyse raised exceptions and response times for endpoints.</p>
+                        
+                        <br>
+
+                        <h4 class="workterm-sub-subheading">Highlights of my Co-op Experience at RBC</h4>
+                        <p class="workterm-sub-subheading">Along with the daily work, I had the opportunity to participate in the RBC Innovation Challenge which is designed to help new co-op students network with one another across various disciplines and use open source APIs to create sustainable solutions related to the Covid-19 pandemic.</p>
+                        <p class="workterm-sub-subheading">I also had the opportunity of being the scrum master for my squad for the duration of 2 sprints (1 sprint = 2 weeks). I was responsible for facilitating the daily stand-up meetings, reporting any major conflicts to members of other squads and organizing other agile ceremonies such as squad reviews, internal refinement sessions and squad retrospectives. Taking on this role taught me a lot about problem solving, professional communication and time management.</p>
+                        <p class="workterm-sub-subheading">Towards the end of my second term, all co-ops within RBC-OMNI had the chance to compete in an automated snake (game) competition organized by <a href="https://play.battlesnake.com/" target="_blank">Battlesnake</a>. My fellow Choose A Bank co-op students and I teamed up to build an automated snake using JavaScript which then competed against other snakes built by other teams. This was a great way to finish off the work term and connect with other co-op students within OMNI.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="workterm-subheading">
+                        <h3>Goals</h3>
+                        <p>At the start of each co-op term my mentor, manager and I discussed a few technical and non-technical goals which I've described below.</p>
+
+                        <h4 class="workterm-sub-subheading">Become Proficient with Front-end Languages and Technologies</h4>
+                        <p class="workterm-sub-subheading">For my first work term at RBC, one of my goals was to successfully learn and use the front-end languages and frameworks used within OMNI. Becoming proficient with Angular (using TypeScript) has allowed me to gain exposure to front-end technologies which has increased my skillset, uncover more pathways for my future career and allowed me to complete daily tasks quickly and efficiently. Throughout the progression of this term, I accomplished this goal by completing a learner's guide for Angular and performing code reviews on the existing code base to understand the coding conventions and functionality. From this, I was able to pick up a variety of different front-end stories to gain more experience along with making my own judgments to better analyze code and prevent any errors before I presented my work before the entire squad.</p>
+
+                        <br>
+
+                        <h4 class="workterm-sub-subheading">Time Management</h4>
+                        <p class="workterm-sub-subheading">RBC offers many opportunities to their co-op students such as engaging in challenges and projects outside of our daily work. Hence, one of my goals for the summer work term was to manage my time better so that I could participate in these extra-curricular activities. Learning to use my time wisely and efficiently has better prepared me for larger work tasks, taking on agile roles such as scrum master and allowed me to better understand the concept of project management. I accomplished this goal by using the Outlook Calendar tool and creating mental checkpoints for each story that worked on. As I found myself completing my tasks within timeframes, I decided to take on the role of scrum master which is about facilitating team meetings to prevent future conflicts and going overtime. In addition, I was able to participate in the RBC Innovation Challenge and community meetings.</p>
+
+                        <br>
+                        
+                        <h4 class="workterm-sub-subheading">Teamwork and Collaboration with Agile</h4>
+                        <p class="workterm-sub-subheading">In school we're taught about agile, but we rarely have the chance to work in such an environment. Seeing as many technological institutions including RBC-OMNI are applying agile ways of working to better perform daily tasks, facilitate problems efficiently and provide continuous delivery of their products, my goal for the summer term was to learn professional and ethical behavior when working in an agile team. Learning to work in this environment has allowed me to understand the company culture better and communicate effectively when working with others. I was able to successfully accomplish this goal by attending RBC-OMNI's 'Ways of Working' seminar and contacting the Choose A Bank journey's agile coach for resources on adapting to an agile environment. Attending the seminar was extremely helpful as many collaboration scenarios and project management tools were explained. Learning this information made me better prepared for daily agile ceremonies such as stand up meetings, squad reviews, retrospectives and refinements where I engaged with all squad members such as developers, business analyst, product manager and UI designers.</p>
+
+                        <br>
+                        
+                        <h4 class="workterm-sub-subheading">Become Proficient with Back-end Languages and Technologies</h4>
+                        <p class="workterm-sub-subheading">One of my goals for my fall co-op work term at RBC was to become proficient with back-end programming languages, tools and technologies used within the OMNI infrastructure. Understanding and implementing programs in the back-end has supported my long-term goal to work with full stack technologies and create personal projects. Specifically, I wanted to learn about the Spring Boot framework, downstream services, mocking services such as Postman and implementing JUnit tests for Java classes and methods. By attending bi-weekly Back-end Chapter meetings, pair programming with my mentor and participating in Spring Boot sprints with other employees, I was able to accomplish this goal. In addition, I was able to learn more about enterprise tools (Pivotal Cloud Foundry, Splunk, Dynatrace, Apache JMeter, and Postman) which support back-end development. From this, I was able to complete various types of back-end stories and participate in code swarming sessions.</p>
+
+                        <br>
+                        
+                        <h4 class="workterm-sub-subheading">Networking</h4>
+                        <p class="workterm-sub-subheading">As a co-op student, it's important to reach out and connect with other co-ops, full-time employees and senior employees to better understand organizational roles and company culture at a large corporation such as RBC. When entering my second work term, networking was an important goal for me as it has given me exposure to different roles when considering paths for my future career and identify persons of contact when working with APIs. I achieved this goal by participating in co-op community meetings, connecting with others via virtual coffee chats, hosting bi-weekly knowledge share sessions for the Choose A Bank journey, and communicating with members of other squads when working on overlapping banking widgets. I made sure to set time aside for these meetings in order to see this goal through fruition.</p>
+
+                        <br>
+
+                        <h4 class="workterm-sub-subheading">Professional (Verbal and Virtual) Communication</h4>
+                        <p class="workterm-sub-subheading">My final goal for my second work term at RBC was to improve my professional communication. When working entirely remotely, things sometimes get misunderstood and even overlooked so it was important that I learn to communicate effectively in this virtual working environment. To make sure to see this goal accomplished before the end of my work term, I actively participated in squad discussions where I was able to interact, learn and question information which affected my work. Preparing before these meetings allowed to me to foresee the topic of discussion and present my thoughts and opinions a lot more articulately. Another way I accomplished this goal was meeting with my manager, mentors and technical squad lead every month to get feedback on my work and exercise my communication skills.</p>
+                    
+                    </div>
+
+                    <br>
+
+                    <div class="workterm-subheading">
+                        <h3>Concluding Thoughts</h3>
+                        <p>Working (remotely) at RBC for the past eight months was an incredible learning and co-op opportunity. This experience not only taught me a lot about the technological industry, but also about the community one is a part of when working at a large organization, the accomplishments of hard work and exposure to real-world applications.</p>
+                        <p>At RBC collaboration, recognition and diversity play a huge role for creating an efficient work environment. To me, these were the most interesting aspects of my job. Even with a virtual working environment, I received the best support and knowledge transfer from my mentors, my manager and the front-end and back-end chapters within OMNI. Code live shares, pair programming, completing tech debts and participating in retrospectives allowed me to improve on my daily work and to learn more about various tools and technologies.</p>
+                    </div>
+
+                    <br>
+
+                    <div class="workterm-subheading">
+                        <h3>Acknowledgements</h3>
+                        <p>While the world was exposed to one of the greatest pandemics, I am extremely thankful to have had the opportunity to work at such a prestigious organization. I would like to give a huge thank you to everyone at RBC-OMNI for making my virtual co-op experience even better than the non-virtual one that I had anticipated back in May 2020.</p>
+                        <p>For starters, I would like to thank my manager Jon Petruk, my mentors Jyot Thakkar and Tim Eapen and technical squad lead Steve Braun for your support, mentorship, encouragement, and feedback and not to mention that they were an amazing group of people to work with along with the other members of the Nebula squad.</p>
+                        <p>Next, I'd like to thank the Choose A Bank Journey and the OMNI group at RBC for allowing me to contribute to products that impact the lives of many clients, teaching me to think from the user's point of view.</p>
+                        <p>And finally, I'd like to thank my co-op coordinators Laura and Kate for providing tips and support when applying for co-op placements for the very first time!</p>
+
+                        <br>
+
+                        <h4>Image Credits</h4>
+                        <p>Royal Bank of Canada: <a href="https://i0.wp.com/ewnews.com/wp-content/uploads/2018/01/rbc-royal-bank-logo-1.png?fit=2700%2C990&ssl=1" target="_blank">https://i0.wp.com/ewnews.com/wp-content/uploads/</a></p>
+                        <p>VantaJs background: <a href="https://www.vantajs.com/?effect=fog#(backgroundAlpha:1,baseColor:15908799,blurFactor:0.51,gyroControls:!f,highlightColor:16239682,lowlightColor:4849919,midtoneColor:16735558,minHeight:200,minWidth:200,mouseControls:!t,scale:2,scaleMobile:4,speed:1.4000000000000001,touchControls:!t,zoom:2)" target="_blank">https://www.vantajs.com/?effect=fog#</a></p>
+                    
+                    </div>
+                    
+                    
+            </div>
+            
+        </div>
+
+
+
+        <script type="text/javascript" src="connect.js"></script>
+    </body>
+</html>
