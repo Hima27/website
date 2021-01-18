@@ -1,0 +1,235 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#vantafog {
+    height:100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 20%;
+    position: fixed;
+    z-index: -1;
+}
+
+.personal-info {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 20%;
+    overflow-x: hidden;
+    position: fixed;
+    padding-left: 0%;
+    display: block;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.profile-pic {
+    width: 60%;
+    /* height: 240px; */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0%;
+    height: auto;
+}
+
+.name, .short-bio{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.short-bio {
+    word-wrap: break-word;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github, .linkedin, .email, .resume, .devpost {
+    vertical-align: middle;
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+    display: block;
+    height: 40px;
+
+}
+
+.github-icon {
+    height: min-content;
+    padding-right: 10px;
+    vertical-align: middle;
+    margin-top: 0%;
+}
+
+.github-name, .linkedin-name, .email-name, .resume-name, .devpost-name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.linkedin-icon, .email-icon, .resume-icon, .devpost-icon {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.linkedin-icon, .resume-icon {
+    margin-bottom: 3%;
+    padding-right: 2%;
+    padding-left: 3%;
+}
+
+.devpost-icon {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.devpost {
+    margin-top: -2%;
+}
+
+.email-icon {
+    width: 45px;
+    margin-left: -28px;
+}
+
+.content-side {
+    width: 80%;
+    float: right;
+    z-index: -1;
+    display: block;
+    margin:0px auto;
+    background-color: #fffcf5;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0;
+    z-index: 99;
+}
+
+.link {
+    text-decoration:none;
+    color: #262626;
+}
+
+.link:hover { color:  #fffcf5 }
+.about-text:hover, .projects-text:hover, .experience-text:hover {  color:  #fffcf5 }
+
+h1, h2, h3, h4, h5, p, footer {
+    color: #262626;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+.navigation-options {
+    vertical-align: middle;
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+    display: grid;
+    height: 40px;
+}
+
+.about-btn, .projects-btn, .experience-btn {
+    background-color: transparent;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    position: relative;
+    height: 35px;
+    
+}
+
+.heading-underline {
+    border: none;
+    height: 1px;
+    color:rgba(255, 59, 75, 0.966); /* old IE */
+    background-color: rgba(255, 59, 75, 0.966);
+    border-color: rgba(255, 59, 75, 0.966);
+    
+}
+
+.about-page, .projects-page, .experience-page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.about-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: max-content;
+    margin-top: 2%;
+}
+
+.full-stack-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    margin-bottom: 10px;
+
+}
+
+.full-stack-caption {
+    text-align: center;
+    display: block;
+    text-decoration:none;
+    color: #262626;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hi-intro, .project-one, .first-second-label {
+    padding-top: 1.5%;
+}
+
+.hi-intro, .education, .skills-content, .hobbies-content {
+    font-size: 16px;
+}
+
+.first-second-label {
+    margin-bottom: 0%;
+}
+
+.first-second-caption {
+    margin-top: 0%;
+}
+
+.workterm-sub-subheading {
+    margin-left: 5%;
+}
+
+p {
+    line-height: 130%;
+}
+
+.copyright {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-top: 15%;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
